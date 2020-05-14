@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESTE ES TU DESTINO"
+        android:layout_gravity="center"
+        android:textSize="24dp"
+        android:layout_marginTop="24dp"
+        android:textColor="#8904B1"
+        android:textStyle="italic|bold"/>
+
+    <ImageView
+        android:id="@+id/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="24dp"
+        android:layout_marginTop="48dp"
+        app:srcCompat="@drawable/milogo" />
+
+    <TextView
+        android:id="@+id/respuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:layout_gravity="center"
+        android:textSize="35dp"
+        android:layout_marginTop="48dp"
+        android:textColor="#000000"
+        android:textStyle="italic|bold"/>
+
+
+
+</LinearLayout>
